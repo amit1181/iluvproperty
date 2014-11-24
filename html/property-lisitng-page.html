@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>I Luv Property</title>
+<!-- Bootstrap -->
+<link href="../assets/css/plugins.css" rel="stylesheet">
+<!-- Common Css  -->
+<link href="../assets/css/custom.css" rel="stylesheet">
+<!--  mobile  -->
+<link href="../assets/css/mobile-style.css" rel="stylesheet">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.min.js"></script>
+      <script src="../assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="header-wrapper">
+	<header class="container">
+		<div class="row top">
+			<div class="col-xs-12 col-sm-6 col-lg-6  logo"> <a href="index.html"><img src="../assets/img/iluvPropertylogo.png" alt="I Luv Property" ></a> 
+				
+				<!-- Nav -->
+				
+				<div class="navbar-wrapper">
+					<div class="container">
+						<div class="navbar navbar-inverse navbar-static-top">
+							<div class="container">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+								</div>
+								<div class="navbar-collapse collapse">
+									<ul class="nav navbar-nav">
+										<li class="active"><a href="#">Sell</a></li>
+										<li><a href="#">Rent</a></li>
+										<li><a href="#">Agents</a></li>
+										<li><a href="#">Tips</a></li>
+										<li><a href="#">Help</a></li>
+										<li class="hide-desk"><a href="#">List Property</a></li>
+										<li class="hide-desk"><a href="#">Sign In</a></li>
+										<li class="hide-desk"><a href="#">Register</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Nav end --> 
+				
+			</div>
+			
+			<!-- logo end -->
+			
+			<div class="col-xs-0 col-sm-6 col-lg-6 sign-in">
+				<form action="#" accept-charset="utf-8">
+					<input type="search" placeholder="Search">
+				</form>
+				<a href="#" class="list hide-mob">List Property<i class="spritearrow-right-white">&nbsp;</i></a>
+				<ul class="hide-mob">
+					<li><a href="#">sign in</a></li>
+					<li> | </li>
+					<li><a href="#">register</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+</div>
+
+<!-- header-wrapper end -->
+
+<div class="container">
+	<div id="main"> 
+		
+		<!-- All the page content goes here -->
+		
+		<div id="row-listing-page"  class="row">
+			<div id="display-property-listing">
+				<div class="col-sm-9">
+					<div id="propertyLisitngFilter" class="recent-listing clear">
+						<h1>Recent Listing</h1>
+						<form class="form-inline" role="form">
+							<div class="filter-map">
+								<div class="rent control-group">
+									<div class="controls">
+										<label for="inputRent">Map </label>
+										<input type="checkbox" id="inputRent" checked="checked" >
+									</div>
+									<!-- /.controls --> 
+								</div>
+								<!-- /.control-group --> 
+								
+							</div>
+							<!-- /.filter-map -->
+							
+							<div class="filter-sort-by">
+								<label> Sort by:</label>
+								<div class="dropdown grid">
+									<div class="controls">
+										<select id="dateOrder">
+											<option id="date-option">Date</option>
+											<option id="list-option">DESC</option>
+										</select>
+									</div>
+									<!-- /.controls --> 
+								</div>
+							</div>
+							<!-- /.filter-sort-by -->
+							
+							<div class="filter-sort">
+								<label for="">Sort:</label>
+								<div class="dropdown grid">
+									<div class="controls">
+										<select id="viewOrder">
+											<option id="grid-option">Grid</option>
+											<option id="list-option">List</option>
+										</select>
+									</div>
+									<!-- /.controls --> 
+								</div>
+							</div>
+							<!-- /.filter-sort -->
+							
+						</form>
+					</div>
+					<!-- .recent-listing -->
+					
+					<div class="row clear_b" id="display_map">
+						<div class="col-sm-12">
+							<div class="map clear"> <img src="../assets/img/map-listing.jpg" alt="map-listing"> </div>
+						</div>
+					</div>
+					<div class="col-sm-12 padTop10 clear_b"> 
+						<!--  Grid- View -->
+						<div class="properties-grid properties-grid-view">
+							<div class="row">
+								<div class="property col-sm-4">
+									<div class="image">
+										<div class="image-content"> <a href="detail.html"></a> <img alt="" src="../assets/img/propertyPlaceHolder.jpg"> </div>
+										<!-- /.image-content --> 
+									</div>
+									<!-- /.image -->
+									
+									<div class="propDitailsDisply">
+										<div class="leftColumn">
+											<h4>Downhillton, pa</h4>
+											<div><a href="#">River Park Area <i class="spritemappointer">&nbsp;</i></a> </div>
+											<div class="spacing">
+												<div class="bedrooms">
+													<div><i class="spritebedrooms">&nbsp;</i>4</div>
+												</div>
+												<!-- /.bedrooms -->
+												<div class="bathrooms">
+													<div><i class="spritebathrooms">&nbsp;</i>3</div>
+												</div>
+											</div>
+											<div> <span><strong>Area:</strong> 300m<sup>2</sup></span> </div>
+											<div> <span><strong>ID#</strong>&nbsp;DZE1234</span> </div>
+											<div> <span>Listing: 09/09/2014</span> </div>
+										</div>
+										<div class="rightColumn">
+											<label>$500,00</label>
+											<div class="spacing"> <img alt="" src="../assets/img/barfoot&thompson.jpg"> </div>
+											<div class="agentName"> Matthew Oemond </div>
+											<div class="fav"> <a href="#" class="spriteemail-black">email</a> <a href="#" class="spriteheart">Fav</a> </div>
+										</div>
+									</div>
+								</div>
+								<!-- /.property -->
+								
+								<div class="property col-sm-4">
+									<div class="image">
+										<div class="image-content"> <a href="detail.html"></a> <img alt="" src="../assets/img/propertyPlaceHolder.jpg"> </div>
+										<!-- /.image-content --> 
+									</div>
+									<!-- /.image -->
+									
+									<div class="propDitailsDisply">
+										<div class="leftColumn">
+											<h4>Downhillton, pa</h4>
+											<div><a href="#">River Park Area <i class="spritemappointer">&nbsp;</i></a> </div>
+											<div class="spacing">
+												<div class="bedrooms">
+													<div><i class="spritebedrooms">&nbsp;</i>4</div>
+												</div>
+												<!-- /.bedrooms -->
+												<div class="bathrooms">
+													<div><i class="spritebathrooms">&nbsp;</i>3</div>
+												</div>
+											</div>
+											<div> <span><strong>Area:</strong> 300m<sup>2</sup></span> </div>
+											<div> <span><strong>ID#</strong>&nbsp;DZE1234</span> </div>
+											<div> <span>Listing: 09/09/2014</span> </div>
+										</div>
+										<div class="rightColumn">
+											<label>$500,00</label>
+											<div class="spacing"> <img alt="" src="../assets/img/barfoot&thompson.jpg"> </div>
+											<div class="agentName"> Matthew Oemond </div>
+											<div class="fav"> <a href="#" class="spriteemail-black">email</a> <a href="#" class="spriteheart">Fav</a> </div>
+										</div>
+									</div>
+								</div>
+								<!-- /.property -->
+								
+								<div class="property col-sm-4">
+									<div class="image">
+										<div class="image-content"> <a href="detail.html"></a> <img alt="" src="../assets/img/propertyPlaceHolder.jpg"> </div>
+										<!-- /.image-content --> 
+									</div>
+									<!-- /.image -->
+									
+									<div class="propDitailsDisply">
+										<div class="leftColumn">
+											<h4>Downhillton, pa</h4>
+											<div><a href="#">River Park Area <i class="spritemappointer">&nbsp;</i></a> </div>
+											<div class="spacing">
+												<div class="bedrooms">
+													<div><i class="spritebedrooms">&nbsp;</i>4</div>
+												</div>
+												<!-- /.bedrooms -->
+												<div class="bathrooms">
+													<div><i class="spritebathrooms">&nbsp;</i>3</div>
+												</div>
+											</div>
+											<div> <span><strong>Area:</strong> 300m<sup>2</sup></span> </div>
+											<div> <span><strong>ID#</strong>&nbsp;DZE1234</span> </div>
+											<div> <span>Listing: 09/09/2014</span> </div>
+										</div>
+										<div class="rightColumn">
+											<label>$500,00</label>
+											<div class="spacing"> <img alt="" src="../assets/img/barfoot&thompson.jpg"> </div>
+											<div class="agentName"> Matthew Oemond </div>
+											<div class="fav"> <a href="#" class="spriteemail-black">email</a> <a href="#" class="spriteheart">Fav</a> </div>
+										</div>
+									</div>
+								</div>
+								<!-- /.property -->
+								
+								<div class="property col-sm-4">
+									<div class="image">
+										<div class="image-content"> <a href="detail.html"></a> <img alt="" src="../assets/img/propertyPlaceHolder.jpg"> </div>
+										<!-- /.image-content --> 
+									</div>
+									<!-- /.image -->
+									
+									<div class="propDitailsDisply">
+										<div class="leftColumn">
+											<h4>Downhillton, pa</h4>
+											<div><a href="#">River Park Area <i class="spritemappointer">&nbsp;</i></a> </div>
+											<div class="spacing">
+												<div class="bedrooms">
+													<div><i class="spritebedrooms">&nbsp;</i>4</div>
+												</div>
+												<!-- /.bedrooms -->
+												<div class="bathrooms">
+													<div><i class="spritebathrooms">&nbsp;</i>3</div>
+												</div>
+											</div>
+											<div> <span><strong>Area:</strong> 300m<sup>2</sup></span> </div>
+											<div> <span><strong>ID#</strong>&nbsp;DZE1234</span> </div>
+											<div> <span>Listing: 09/09/2014</span> </div>
+										</div>
+										<div class="rightColumn">
+											<label>$500,00</label>
+											<div class="spacing"> <img alt="" src="../assets/img/barfoot&thompson.jpg"> </div>
+											<div class="agentName"> Matthew Oemond </div>
+											<div class="fav"> <a href="#" class="spriteemail-black">email</a> <a href="#" class="spriteheart">Fav</a> </div>
+										</div>
+									</div>
+								</div>
+								<!-- /.property -->
+								
+								<div class="property col-sm-4">
+									<div class="image">
+										<div class="image-content"> <a href="detail.html"></a> <img alt="" src="../assets/img/propertyPlaceHolder.jpg"> </div>
+										<!-- /.image-content --> 
+									</div>
+									<!-- /.image -->
+									
+									<div class="propDitailsDisply">
+										<div class="leftColumn">
+											<h4>Downhillton, pa</h4>
+											<div><a href="#">River Park Area <i class="spritemappointer">&nbsp;</i></a> </div>
+											<div class="spacing">
+												<div class="bedrooms">
+													<div><i class="spritebedrooms">&nbsp;</i>4</div>
+												</div>
+												<!-- /.bedrooms -->
+												<div class="bathrooms">
+													<div><i class="spritebathrooms">&nbsp;</i>3</div>
+												</div>
+											</div>
+											<div> <span><strong>Area:</strong> 300m<sup>2</sup></span> </div>
+											<div> <span><strong>ID#</strong>&nbsp;DZE1234</span> </div>
+											<div> <span>Listing: 09/09/2014</span> </div>
+										</div>
+										<div class="rightColumn">
+											<label>$500,00</label>
+											<div class="spacing"> <img alt="" src="../assets/img/barfoot&thompson.jpg"> </div>
+											<div class="agentName"> Matthew Oemond </div>
+											<div class="fav"> <a href="#" class="spriteemail-black">email</a> <a href="#" class="spriteheart">Fav</a> </div>
+										</div>
+									</div>
+								</div>
+								<!-- /.property -->
+								
+								<div class="property col-sm-4">
+									<div class="image">
+										<div class="image-content"> <a href="detail.html"></a> <img alt="" src="../assets/img/propertyPlaceHolder.jpg"> </div>
+										<!-- /.image-content --> 
+									</div>
+									<!-- /.image -->
+									
+									<div class="propDitailsDisply">
+										<div class="leftColumn">
+											<h4>Downhillton, pa</h4>
+											<div><a href="#">River Park Area <i class="spritemappointer">&nbsp;</i></a> </div>
+											<div class="spacing">
+												<div class="bedrooms">
+													<div><i class="spritebedrooms">&nbsp;</i>4</div>
+												</div>
+												<!-- /.bedrooms -->
+												<div class="bathrooms">
+													<div><i class="spritebathrooms">&nbsp;</i>3</div>
+												</div>
+											</div>
+											<div> <span><strong>Area:</strong> 300m<sup>2</sup></span> </div>
+											<div> <span><strong>ID#</strong>&nbsp;DZE1234</span> </div>
+											<div> <span>Listing: 09/09/2014</span> </div>
+										</div>
+										<div class="rightColumn">
+											<label>$500,00</label>
+											<div class="spacing"> <img alt="" src="../assets/img/barfoot&thompson.jpg"> </div>
+											<div class="agentName"> Matthew Oemond </div>
+											<div class="fav"> <a href="#" class="spriteemail-black">email</a> <a href="#" class="spriteheart">Fav</a> </div>
+										</div>
+									</div>
+								</div>
+								<!-- /.property -->
+								<div class="property col-sm-4">
+									<div class="image">
+										<div class="image-content"> <a href="detail.html"></a> <img alt="" src="../assets/img/propertyPlaceHolder.jpg"> </div>
+										<!-- /.image-content --> 
+									</div>
+									<!-- /.image -->
+									
+									<div class="propDitailsDisply">
+										<div class="leftColumn">
+											<h4>Downhillton, pa</h4>
+											<div><a href="#">River Park Area <i class="spritemappointer">&nbsp;</i></a> </div>
+											<div class="spacing">
+												<div class="bedrooms">
+													<div><i class="spritebedrooms">&nbsp;</i>4</div>
+												</div>
+												<!-- /.bedrooms -->
+												<div class="bathrooms">
+													<div><i class="spritebathrooms">&nbsp;</i>3</div>
+												</div>
+											</div>
+											<div> <span><strong>Area:</strong> 300m<sup>2</sup></span> </div>
+											<div> <span><strong>ID#</strong>&nbsp;DZE1234</span> </div>
+											<div> <span>Listing: 09/09/2014</span> </div>
+										</div>
+										<div class="rightColumn">
+											<label>$500,00</label>
+											<div class="spacing"> <img alt="" src="../assets/img/barfoot&thompson.jpg"> </div>
+											<div class="agentName"> Matthew Oemond </div>
+											<div class="fav"> <a href="#" class="spriteemail-black">email</a> <a href="#" class="spriteheart">Fav</a> </div>
+										</div>
+									</div>
+								</div>
+								<!-- /.property -->
+								<div class="property col-sm-4">
+									<div class="image">
+										<div class="image-content"> <a href="detail.html"></a> <img alt="" src="../assets/img/propertyPlaceHolder.jpg"> </div>
+										<!-- /.image-content --> 
+									</div>
+									<!-- /.image -->
+									
+									<div class="propDitailsDisply">
+										<div class="leftColumn">
+											<h4>Downhillton, pa</h4>
+											<div><a href="#">River Park Area <i class="spritemappointer">&nbsp;</i></a> </div>
+											<div class="spacing">
+												<div class="bedrooms">
+													<div><i class="spritebedrooms">&nbsp;</i>4</div>
+												</div>
+												<!-- /.bedrooms -->
+												<div class="bathrooms">
+													<div><i class="spritebathrooms">&nbsp;</i>3</div>
+												</div>
+											</div>
+											<div> <span><strong>Area:</strong> 300m<sup>2</sup></span> </div>
+											<div> <span><strong>ID#</strong>&nbsp;DZE1234</span> </div>
+											<div> <span>Listing: 09/09/2014</span> </div>
+										</div>
+										<div class="rightColumn">
+											<label>$500,00</label>
+											<div class="spacing"> <img alt="" src="../assets/img/barfoot&thompson.jpg"> </div>
+											<div class="agentName"> Matthew Oemond </div>
+											<div class="fav"> <a href="#" class="spriteemail-black">email</a> <a href="#" class="spriteheart">Fav</a> </div>
+										</div>
+									</div>
+								</div>
+								<!-- /.property -->
+								<div class="property col-sm-4">
+									<div class="image">
+										<div class="image-content"> <a href="detail.html"></a> <img alt="" src="../assets/img/propertyPlaceHolder.jpg"> </div>
+										<!-- /.image-content --> 
+									</div>
+									<!-- /.image -->
+									
+									<div class="propDitailsDisply">
+										<div class="leftColumn">
+											<h4>Downhillton, pa</h4>
+											<div><a href="#">River Park Area <i class="spritemappointer">&nbsp;</i></a> </div>
+											<div class="spacing">
+												<div class="bedrooms">
+													<div><i class="spritebedrooms">&nbsp;</i>4</div>
+												</div>
+												<!-- /.bedrooms -->
+												<div class="bathrooms">
+													<div><i class="spritebathrooms">&nbsp;</i>3</div>
+												</div>
+											</div>
+											<div> <span><strong>Area:</strong> 300m<sup>2</sup></span> </div>
+											<div> <span><strong>ID#</strong>&nbsp;DZE1234</span> </div>
+											<div> <span>Listing: 09/09/2014</span> </div>
+										</div>
+										<div class="rightColumn">
+											<label>$500,00</label>
+											<div class="spacing"> <img alt="" src="../assets/img/barfoot&thompson.jpg"> </div>
+											<div class="agentName"> Matthew Oemond </div>
+											<div class="fav"> <a href="#" class="spriteemail-black">email</a> <a href="#" class="spriteheart">Fav</a> </div>
+										</div>
+									</div>
+								</div>
+								<!-- /.property --> 
+							</div>
+							<!-- /.row --> 
+						</div>
+						<!-- /.properties-grid --> 
+						<!-- Listing - View -->
+						<div class="properties-list-view">
+							<div class="row gap">
+								<div class="col-sm-4 house"> <img src="../assets/img/propertyPlaceHolder.jpg" alt="listing-house" > </div>
+								<div class="col-sm-8 property">
+									<div class="top">
+										<h2>30/17 Lyon Ave, Mt Albert</h2>
+										<p>Auckland CBD <i class="spritepin">&nbsp;</i></p>
+										<ul>
+											<li>
+												<p><i class="spriteperson">&nbsp;</i> 1 </p>
+											</li>
+											<li>
+												<p><i class="spriteshower-listing">&nbsp;</i> 3</p>
+											</li>
+											<li>
+												<p><strong>Area:</strong> 300m<sup>2</sup></p>
+											</li>
+										</ul>
+									</div>
+									<!-- /top -->
+									
+									<div class="price">
+										<p>$600 / week <i class="spritelisting-heart">&nbsp;</i></p>
+									</div>
+									<div class="description">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum nesciunt perferendis ducimus sequi! Corrupti, ea ex voluptates pariatur.</p>
+									</div>
+									<div class="bottom">
+										<ul>
+											<li>
+												<p><strong>ID#</strong> DZE189</p>
+											</li>
+											<li>
+												<p><strong>Listing:</strong> 09/09/2014</p>
+											</li>
+										</ul>
+										<ul>
+											<li><img src="../assets/img/listing-barfoot.jpg" alt="listing-barfoot" width="78" height="40"></li>
+										</ul>
+										<ul>
+											<li>
+												<p>Matthew Ormond</p>
+											</li>
+											<li><a href="mailto:"><img src="../assets/img/listing-mail.jpg" alt="listing-mail" width="12" height="9"></a></li>
+										</ul>
+									</div>
+								</div>
+								<!-- /property --> 
+								
+							</div>
+							<!-- /row -->
+							
+							<div class="row gap">
+								<div class="col-sm-4 house"> <img src="../assets/img/propertyPlaceHolder.jpg" alt="listing-house" > </div>
+								<div class="col-sm-8 property">
+									<div class="top">
+										<h2>30/17 Lyon Ave, Mt Albert</h2>
+										<p>Auckland CBD <i class="spritepin">&nbsp;</i></p>
+										<ul>
+											<li>
+												<p><i class="spriteperson">&nbsp;</i> 1 </p>
+											</li>
+											<li>
+												<p><i class="spriteshower-listing">&nbsp;</i> 3</p>
+											</li>
+											<li>
+												<p><strong>Area:</strong> 300m<sup>2</sup></p>
+											</li>
+										</ul>
+									</div>
+									<!-- /top -->
+									
+									<div class="price">
+										<p>$600 / week <i class="spritelisting-heart">&nbsp;</i></p>
+									</div>
+									<div class="description">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum nesciunt perferendis ducimus sequi! Corrupti, ea ex voluptates pariatur.</p>
+									</div>
+									<div class="bottom">
+										<ul>
+											<li>
+												<p><strong>ID#</strong> DZE189</p>
+											</li>
+											<li>
+												<p><strong>Listing:</strong> 09/09/2014</p>
+											</li>
+										</ul>
+										<ul>
+											<li><img src="../assets/img/listing-barfoot.jpg" alt="listing-barfoot" width="78" height="40"></li>
+										</ul>
+										<ul>
+											<li>
+												<p>Matthew Ormond</p>
+											</li>
+											<li><a href="mailto:"><img src="../assets/img/listing-mail.jpg" alt="listing-mail" width="12" height="9"></a></li>
+										</ul>
+									</div>
+								</div>
+								<!-- /property --> 
+								
+							</div>
+							<!-- /row -->
+							
+							<div class="row gap">
+								<div class="col-sm-4 house"> <img src="../assets/img/propertyPlaceHolder.jpg" alt="listing-house" > </div>
+								<div class="col-sm-8 property">
+									<div class="top">
+										<h2>30/17 Lyon Ave, Mt Albert</h2>
+										<p>Auckland CBD <i class="spritepin">&nbsp;</i></p>
+										<ul>
+											<li>
+												<p><i class="spriteperson">&nbsp;</i> 1 </p>
+											</li>
+											<li>
+												<p><i class="spriteshower-listing">&nbsp;</i> 3</p>
+											</li>
+											<li>
+												<p><strong>Area:</strong> 300m<sup>2</sup></p>
+											</li>
+										</ul>
+									</div>
+									<!-- /top -->
+									
+									<div class="price">
+										<p>$600 / week <i class="spritelisting-heart">&nbsp;</i></p>
+									</div>
+									<div class="description">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum nesciunt perferendis ducimus sequi! Corrupti, ea ex voluptates pariatur.</p>
+									</div>
+									<div class="bottom">
+										<ul>
+											<li>
+												<p><strong>ID#</strong> DZE189</p>
+											</li>
+											<li>
+												<p><strong>Listing:</strong> 09/09/2014</p>
+											</li>
+										</ul>
+										<ul>
+											<li><img src="../assets/img/listing-barfoot.jpg" alt="listing-barfoot" width="78" height="40"></li>
+										</ul>
+										<ul>
+											<li>
+												<p>Matthew Ormond</p>
+											</li>
+											<li><a href="mailto:"><img src="../assets/img/listing-mail.jpg" alt="listing-mail" width="12" height="9"></a></li>
+										</ul>
+									</div>
+								</div>
+								<!-- /property --> 
+								
+							</div>
+							<!-- /row -->
+							
+							<div class="row gap">
+								<div class="col-sm-4 house"> <img src="../assets/img/propertyPlaceHolder.jpg" alt="listing-house" > </div>
+								<div class="col-sm-8 property">
+									<div class="top">
+										<h2>30/17 Lyon Ave, Mt Albert</h2>
+										<p>Auckland CBD <i class="spritepin">&nbsp;</i></p>
+										<ul>
+											<li>
+												<p><i class="spriteperson">&nbsp;</i> 1 </p>
+											</li>
+											<li>
+												<p><i class="spriteshower-listing">&nbsp;</i> 3</p>
+											</li>
+											<li>
+												<p><strong>Area:</strong> 300m<sup>2</sup></p>
+											</li>
+										</ul>
+									</div>
+									<!-- /top -->
+									
+									<div class="price">
+										<p>$600 / week <i class="spritelisting-heart">&nbsp;</i></p>
+									</div>
+									<div class="description">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum nesciunt perferendis ducimus sequi! Corrupti, ea ex voluptates pariatur.</p>
+									</div>
+									<div class="bottom">
+										<ul>
+											<li>
+												<p><strong>ID#</strong> DZE189</p>
+											</li>
+											<li>
+												<p><strong>Listing:</strong> 09/09/2014</p>
+											</li>
+										</ul>
+										<ul>
+											<li><img src="../assets/img/listing-barfoot.jpg" alt="listing-barfoot" width="78" height="40"></li>
+										</ul>
+										<ul>
+											<li>
+												<p>Matthew Ormond</p>
+											</li>
+											<li><a href="mailto:"><img src="../assets/img/listing-mail.jpg" alt="listing-mail" width="12" height="9"></a></li>
+										</ul>
+									</div>
+								</div>
+								<!-- /property --> 
+								
+							</div>
+							<!-- /row -->
+							
+							<div class="row gap">
+								<div class="col-sm-4 house"> <img src="../assets/img/propertyPlaceHolder.jpg" alt="listing-house" > </div>
+								<div class="col-sm-8 property">
+									<div class="top">
+										<h2>30/17 Lyon Ave, Mt Albert</h2>
+										<p>Auckland CBD <i class="spritepin">&nbsp;</i></p>
+										<ul>
+											<li>
+												<p><i class="spriteperson">&nbsp;</i> 1 </p>
+											</li>
+											<li>
+												<p><i class="spriteshower-listing">&nbsp;</i> 3</p>
+											</li>
+											<li>
+												<p><strong>Area:</strong> 300m<sup>2</sup></p>
+											</li>
+										</ul>
+									</div>
+									<!-- /top -->
+									
+									<div class="price">
+										<p>$600 / week <i class="spritelisting-heart">&nbsp;</i></p>
+									</div>
+									<div class="description">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum nesciunt perferendis ducimus sequi! Corrupti, ea ex voluptates pariatur.</p>
+									</div>
+									<div class="bottom">
+										<ul>
+											<li>
+												<p><strong>ID#</strong> DZE189</p>
+											</li>
+											<li>
+												<p><strong>Listing:</strong> 09/09/2014</p>
+											</li>
+										</ul>
+										<ul>
+											<li><img src="../assets/img/listing-barfoot.jpg" alt="listing-barfoot" width="78" height="40"></li>
+										</ul>
+										<ul>
+											<li>
+												<p>Matthew Ormond</p>
+											</li>
+											<li><a href="mailto:"><img src="../assets/img/listing-mail.jpg" alt="listing-mail" width="12" height="9"></a></li>
+										</ul>
+									</div>
+								</div>
+								<!-- /property --> 
+								
+							</div>
+							<!-- /row -->
+							
+							<div class="row gap">
+								<div class="col-sm-4 house"> <img src="../assets/img/propertyPlaceHolder.jpg" alt="listing-house" > </div>
+								<div class="col-sm-8 property">
+									<div class="top">
+										<h2>30/17 Lyon Ave, Mt Albert</h2>
+										<p>Auckland CBD <i class="spritepin">&nbsp;</i></p>
+										<ul>
+											<li>
+												<p><i class="spriteperson">&nbsp;</i> 1 </p>
+											</li>
+											<li>
+												<p><i class="spriteshower-listing">&nbsp;</i> 3</p>
+											</li>
+											<li>
+												<p><strong>Area:</strong> 300m<sup>2</sup></p>
+											</li>
+										</ul>
+									</div>
+									<!-- /top -->
+									
+									<div class="price">
+										<p>$600 / week <i class="spritelisting-heart">&nbsp;</i></p>
+									</div>
+									<div class="description">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum nesciunt perferendis ducimus sequi! Corrupti, ea ex voluptates pariatur.</p>
+									</div>
+									<div class="bottom">
+										<ul>
+											<li>
+												<p><strong>ID#</strong> DZE189</p>
+											</li>
+											<li>
+												<p><strong>Listing:</strong> 09/09/2014</p>
+											</li>
+										</ul>
+										<ul>
+											<li><img src="../assets/img/listing-barfoot.jpg" alt="listing-barfoot" width="78" height="40"></li>
+										</ul>
+										<ul>
+											<li>
+												<p>Matthew Ormond</p>
+											</li>
+											<li><a href="mailto:"><img src="../assets/img/listing-mail.jpg" alt="listing-mail" width="12" height="9"></a></li>
+										</ul>
+									</div>
+								</div>
+								<!-- /property --> 
+								
+							</div>
+						</div>
+						<!-- /.properties-list --> 
+						
+					</div>
+					<nav class="text-center">
+						<ul class="pagination">
+							<li><a href="#"><span aria-hidden="true">&laquo;</span><span class="sr-only">Previous</span></a></li>
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li><a href="#"><span aria-hidden="true">&raquo;</span><span class="sr-only">Next</span></a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-sm-3 sidebar">
+					<div class="widget our-agents">
+						<div class="title">
+							<h2 class="sidebarHeading">Featured Agents <a href="#">more</a></h2>
+						</div>
+						<!-- /.title -->
+						
+						<div class="main-content">
+							<div class="agent">
+								<div class="image"> <img class="img-circle" alt="" src="../assets/img/p_placeholder.png"> </div>
+								<!-- /.image -->
+								<div class="name">Victoria Summer</div>
+								<!-- /.name -->
+								<div class="phone"><strong>Mobile:</strong> 333-666-777</div>
+								<div class="moreAndLogo"> <a href="#">More <i class="spritearrow-right-black">&nbsp;</i></a> <img width="65px" alt="" src="../assets/img/barfoot&thompson.jpg"> </div>
+								<!-- /.email --> 
+							</div>
+							<!-- /.agent -->
+							
+							<div class="agent">
+								<div class="image"> <img class="img-circle" alt="" src="../assets/img/p_placeholder.png"> </div>
+								<!-- /.image -->
+								<div class="name">Victoria Summer</div>
+								<!-- /.name -->
+								<div class="phone"><strong>Mobile:</strong> 333-666-777</div>
+								<div class="moreAndLogo"> <a href="#">More <i class="spritearrow-right-black">&nbsp;</i></a> <img width="65px" alt="" src="../assets/img/barfoot&thompson.jpg"> </div>
+								<!-- /.email --> 
+							</div>
+							<!-- /.agent -->
+							<div class="agent">
+								<div class="image"> <img class="img-circle" alt="" src="../assets/img/p_placeholder.png"> </div>
+								<!-- /.image -->
+								<div class="name">Victoria Summer</div>
+								<!-- /.name -->
+								<div class="phone"><strong>Mobile:</strong> 333-666-777</div>
+								<div class="moreAndLogo"> <a href="#">More <i class="spritearrow-right-black">&nbsp;</i></a> <img width="65px" alt="" src="../assets/img/barfoot&thompson.jpg"> </div>
+								<!-- /.email --> 
+							</div>
+							<!-- /.agent -->
+							<div class="agent">
+								<div class="image"> <img class="img-circle" alt="" src="../assets/img/p_placeholder.png"> </div>
+								<!-- /.image -->
+								<div class="name">Victoria Summer</div>
+								<!-- /.name -->
+								<div class="phone"><strong>Mobile:</strong> 333-666-777</div>
+								<div class="moreAndLogo"> <a href="#">More <i class="spritearrow-right-black">&nbsp;</i></a> <img width="65px" alt="" src="../assets/img/barfoot&thompson.jpg"> </div>
+								<!-- /.email --> 
+							</div>
+							<!-- /.agent -->
+							<div class="agent">
+								<div class="image"> <img class="img-circle" alt="" src="../assets/img/p_placeholder.png"> </div>
+								<!-- /.image -->
+								<div class="name">Victoria Summer</div>
+								<!-- /.name -->
+								<div class="phone"><strong>Mobile:</strong> 333-666-777</div>
+								<div class="moreAndLogo"> <a href="#">More <i class="spritearrow-right-black">&nbsp;</i></a> <img width="65px" alt="" src="../assets/img/barfoot&thompson.jpg"> </div>
+								<!-- /.email --> 
+							</div>
+							<!-- /.agent -->
+							<div class="agent">
+								<div class="image"> <img class="img-circle" alt="" src="../assets/img/p_placeholder.png"> </div>
+								<!-- /.image -->
+								<div class="name">Victoria Summer</div>
+								<!-- /.name -->
+								<div class="phone"><strong>Mobile:</strong> 333-666-777</div>
+								<div class="moreAndLogo"> <a href="#">More <i class="spritearrow-right-black">&nbsp;</i></a> <img width="65px" alt="" src="../assets/img/barfoot&thompson.jpg"> </div>
+								<!-- /.email --> 
+							</div>
+							<!-- /.agent -->
+							<div class="agent">
+								<div class="image"> <img class="img-circle" alt="" src="../assets/img/p_placeholder.png"> </div>
+								<!-- /.image -->
+								<div class="name">Victoria Summer</div>
+								<!-- /.name -->
+								<div class="phone"><strong>Mobile:</strong> 333-666-777</div>
+								<div class="moreAndLogo"> <a href="#">More <i class="spritearrow-right-black">&nbsp;</i></a> <img width="65px" alt="" src="../assets/img/barfoot&thompson.jpg"> </div>
+								<!-- /.email --> 
+							</div>
+							<!-- /.agent --> 
+						</div>
+						<!-- /.content --> 
+					</div>
+					<div class="advertisment">
+						<h3>Advertisment</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- .row-listing-page --> 
+		
+		<!-- No edditing beyond this --> 
+		
+	</div>
+</div>
+<div class="footer-wrapper">
+	<footer  class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-lg-6 contact-footer">
+				<h3>Contact us</h3>
+				<ul>
+					<li> <i class="spritephone">&nbsp;</i> <span>phone</span>
+						<p>0800 888 888</p>
+					</li>
+					<li> <i class="spriteemail">&nbsp;</i> <span>email</span>
+						<p> <a href="mailto:info@iluvproperty.com">info@iluvproperty.com</a><br />
+							<a href="mailto:info@support@iluvproperty.com">support@iluvproperty.com</a> </p>
+					</li>
+					<li> <i class="spriteaddress">&nbsp;</i> <span>address</span>
+						<p>Level 27, PWC Tower, 188 Quay St Auckland, 1010. New Zealand.</p>
+					</li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-lg-6 useful-footer">
+				<h3>Useful links</h3>
+				<ul>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Terms of Use</a></li>
+					<li><a href="#">Payment Information</a></li>
+					<li><a href="#"><img src="../assets/img/i-luv-jobs.png" alt="i-luv-jobs" width="74" height="17"></a></li>
+					<li><a href="#"><img src="../assets/img/i-luv-autos.png" alt="i-luv-autos" width="88" height="17"></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</div>
+<div class="row bottom-footer">
+	<div class="kudos-wrapper">
+		<div class="kudos">
+			<p>&copy; Copyright 2014 by <span>iluvproperty</span> All right reserved</p>
+			<div class="social"> <a href="" target="_blank"><i class="spritetwitter">&nbsp;</i></a> <a href="" target="_blank"><i class="spritefacebook">&nbsp;</i></a> <a href="" target="_blank"><i class="spritegoogle-plus">&nbsp;</i></a> </div>
+		</div>
+	</div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="../assets/js/jquery.min.js"></script> 
+<script src="../assets/js/bootstrap.min.js"></script> 
+<script src="../assets/js/jquery.bxslider.min.js"></script> 
+<script src="../assets/js/chosen.jquery.min.js"></script> 
+<script src="../assets/js/jquery.validate.js"></script> 
+<script src="../assets/js/ezmark.js"></script> 
+<script src="../assets/js/global.js"></script>
+</body>
+</html>
